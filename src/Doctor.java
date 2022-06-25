@@ -1,17 +1,18 @@
 public class Doctor extends HealthWorkers implements IEmployee{
     private String title;
     private String doorNumber;
-    String changeName = name;
+    String changeName = impname;
    public Doctor(String name, String mobilephone, int age , String cardiac_surgery,String title, String doorNumber ){
        super(name, mobilephone, age, cardiac_surgery);
        this.title = title;
        this.doorNumber = doorNumber;
-       this.changeName = name;
+       this.changeName = impname;
 
    }
 
     public String getTitle() {
         return title;
+
     }
 
     public void setTitle(String title) {
@@ -37,6 +38,6 @@ public class Doctor extends HealthWorkers implements IEmployee{
 
     @Override
     public void changeName() {
-        System.out.println("AASSDD");
+       this.changeName = impname;
     }
 }

@@ -6,8 +6,9 @@ public class Main {
 
 
         doctor.giris("18:00");
-        doctor.changeName();
+        System.out.println(doctor.changeName);
 
+        System.out.println(doctor.getTitle());
 
 
         System.out.println(doctor.getDoorNumber());
