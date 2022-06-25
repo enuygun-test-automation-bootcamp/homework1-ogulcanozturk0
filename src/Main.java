@@ -5,7 +5,7 @@ public class Main {
         Doctor doctor = new Doctor("Mehmet Yılmaz ", "05147411414", 59,"Kalp Cerrahı","Profesör","15");
 
 
-        doctor.giris("18:00");
+        doctor.giris("19:00");
         System.out.println(doctor.changeName);
 
         System.out.println(doctor.getTitle());
